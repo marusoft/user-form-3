@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.form-wrapper{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  height: 270px;
+}
+.title{
+  padding: .7rem;
+  color: dodgerblue;
+}
+.form-wrapper > div {
+  margin-bottom: .7rem;
+}
+.form-wrapper > div{
+  margin: .9rem;
+}
+.form-wrapper > div > input{
+  width: 100%;
+  padding: .2rem;
+}
+.btn button{
+  padding: 0.2rem .9rem;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.btn button:hover{
+  cursor: pointer;
+  background-color: green;
+}
